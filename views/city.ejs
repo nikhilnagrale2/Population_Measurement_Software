@@ -1,0 +1,44 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <a class="btn btn-light btn-lg float-left" href="/secrets" role="button">Home</a>
+  <a class="btn btn-light btn-lg float-right" href="/logout" role="button">Log Out</a>
+  <i class="fas fa-globe fa-6x"></i>
+  <br><br><br>
+  <div class="container align-items-center">
+
+    <div class="row justify-content-center">
+      <div class="col-sm-8">
+        <div class="card">
+          <div class="card-body">
+
+            <!-- Makes Post Request to /cityresults -->
+            <form action="/cityresults" method="POST">
+              <div class="form-group">
+                <label for="country">Select Country:</label>
+                <select class="form-control" name="country" id="country">
+                  <option value="india">India</option>
+                </select>
+                <br>
+                <label for="state">Select State:</label>
+                <select onchange="print_city('state', this.selectedIndex);" id="sts" name="state" class="form-control" required></select>
+                <br>
+                <label for="city">Select City:</label>
+                <select name="city" id="state" class="form-control" required></select>
+                <script language="javascript">
+                  print_state("sts");
+                </script>
+
+              </div>
+              <button type="submit" class="btn btn-primary">Show Results</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- <a class="btn btn-dark btn-sm" href="/submit" role="button"></a> -->
+    </div>
+  </div>
+
+  <%- include('partials/footer') %>

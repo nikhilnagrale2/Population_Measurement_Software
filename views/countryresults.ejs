@@ -1,0 +1,81 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <a class="btn btn-light btn-lg float-left" href="/secrets" role="button">Home</a>
+  <a class="btn btn-light btn-lg float-right" href="/logout" role="button">Log Out</a>
+  <i class="fas fa-globe fa-6x"></i>
+  <br><br><br>
+  <h1>Country Demographics - India</h1>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h3>Male Population</h3>
+          <h4 class="my-0 fw-normal"><%= male %></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h3>Female Population</h3>
+          <h4 class="my-0 fw-normal"><%= female %></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h3>Total Area</h3>
+          <h4 class="my-0 fw-normal"><%= area %> KM^2</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h3>Total Population</h3>
+          <h4 class="my-0 fw-normal"><%= totalPopulation %></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h3>PopulationDensity</h3>
+          <h4 class="my-0 fw-normal"><%= populationDensity %></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h3>Sex Ratio</h3>
+          <h4 class="my-0 fw-normal"><%= sexRatio %></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h3>Birth Rate</h3>
+          <h4 class="my-0 fw-normal"><%= birthRate %></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h3>Total Fertility Rate</h3>
+          <h4 class="my-0 fw-normal"><%= totalfertilityRate %></h4>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <%- include('partials/footer') %>
