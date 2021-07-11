@@ -2,7 +2,7 @@
 
 ## Home page of website
 
-![Home Page of Website](https://ibb.co/wrqxZLb)
+![Home Page of Website](../main/Images/Picture1.png)
 ![Home Page of Website](https://ibb.co/RP9pdgZ)
 
 ## Register Screen
