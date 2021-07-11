@@ -3,31 +3,31 @@
 ## Home page of website
 
 ![Home Page of Website](../main/Images/Picture1.png)
-![Home Page of Website](https://ibb.co/RP9pdgZ)
+![Home Page of Website](../main/Images/Picture2.png)
 
 ## Register Screen
 
-![Register Screen](https://ibb.co/8z4zPTD)
+![Register Screen](../main/Images/Picture3.png)
 
 ## Login Screen
 
-![Login Screen](https://ibb.co/2j40vJ7)
+![Login Screen](../main/Images/Picture4.png)
 
 ## After Login
 
-![After Login](https://ibb.co/WxjFQqm)
+![After Login](../main/Images/Picture5.png)
 
 ## Country Demographics Page and Result
 
-![Country Demographics page and result](https://ibb.co/SvWfxhR)
-![Country Demographics Result](https://ibb.co/x5kvCzM)
+![Country Demographics page and result](../main/Images/Picture6.png)
+![Country Demographics Result](../main/Images/Picture7.png)
 
 ## State Demographics Page and Result
 
-![State Demographics Page](https://ibb.co/tsPrpZf)
-![State Demographics Result](https://ibb.co/zxxbZR4)
+![State Demographics Page](../main/Images/Picture8.png)
+![State Demographics Result](../main/Images/Picture9.png)
 
 ## City Demographics Page and Result
 
-![City Demographics Page](https://ibb.co/zV65QbN)
-![City Demographics Result](https://ibb.co/s92tygs)
+![City Demographics Page](../main/Images/Picture10.png)
+![City Demographics Result](../main/Images/Picture11.png)
